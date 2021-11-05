@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@500&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0d1117;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    color: white;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.container2{
+    color: white;
+    margin-left: 15%;
+}
+.header{
+    font-size: 100px;
+    float: top;
+    font-family: 'Rubik', sans-serif;
+    filter: drop-shadow(0 0 0.05rem white);
+    line-height: 80%
+
+}
+.headerbottom{
+    font-size: 21;
+}
+
+.contactcontainer{
+    width: 80%;
+    margin-top: 150px;
+}
+.nadpis{
+
+    font-weight: bold;
+    font-size: 26;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 150px;
+}
+.contantcontainer{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+   
+    
+}
+.contantcontainer a{
+    text-decoration: none;
+}
+.contact_bttn{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    
+    background: #0d1117;
+    cursor: pointer;
+}
+.contact_bttn:hover{
+    border: 2px solid rgb(167, 167, 167);
+    margin: 9px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+.contact_bttn div, .contact_bttn img{ 
+    float:left;
+}
+.contact_bttn .soctext{
+    margin-left: 10px;
+}
+.contact_bttn .soctext .socname{ 
+    font-size: 22;
+}
+.contact_bttn .soctext .socnick{ 
+    font-size: 20;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.skillscontainer{
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    margin: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+  
+  
+}
+
+.skillsname{
+    line-height: 1;
+    width: 20%;
+   
+}
+.skillsname_name{
+    float: left;
+    margin-right: 4px;
+    font-weight: bold;
+}
+.skillsname_value{
+    float: left;
+    margin-right: 4px;
+    font-weight: lighter;
+}
+
+.skillsbar{
+    
+
+    width: 85%;
+    background:rgb(41, 41, 41);
+    height:16px;
+    border-radius: 15px;
+    float: right;
+
+}
+.skillsbar_value{
+    height: 100%;
+    border-radius: 15px;
+   
+    background: #fbae3c;
+
+}
+.skillshtml .skillsbar_value{
+    width: 75%;
+}
+.skillsjs .skillsbar_value{
+    width: 90%;
+}
+.skillsphp .skillsbar_value{
+    width: 60%;
+}
+.skillscss .skillsbar_value{
+    width: 80%;
+}
+.skillsmysql .skillsbar_value{
+    width: 55%;
+}
+.skillslinux .skillsbar_value{
+    width: 75%;
+}
+.footercontainer{
+    width: 80%;
+}
+.footercontainer .footertable{
+    color: white;
+    width: 100%;
+  
+
+}
+.footercontainer .footertable .footer1{
+float: left;
+margin: 50px;
+}
+.footercontainer .footertable .footer2{
+float: left;
+margin: 50px;
+}
+.footercontainer .footertable .footer3{
+float: left;
+margin: 50px;
+}
+
+.footercontainer .footertable div:first-child div:first-child{
+   font-weight: bold;
+   font-family: 'Rubik', sans-serif;
+   font-size: 22px;
+   color:rgb(182, 182, 182)
+}
+
+.footercontainer .footertable div div:first-child{
+    font-weight: bold;
+}
+.footercontainer .footertable div div:not(:first-child){
+    font-weight: lighter;
+   
+}
+.footercontainer .footertable div div:not(:first-child) a{
+    padding-left: 10px;
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footercontainer .footertable div div:not(:first-child) a:hover{
+color:#fbae3c;
+    text-decoration: underline;
+}
