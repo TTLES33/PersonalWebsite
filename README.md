@@ -1,4 +1,4 @@
 # PersonalWebsite
 Source code of my personal website.
 
-http://ttles.space/
+http://ttles.eu/
