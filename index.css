@@ -79,7 +79,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
+.contact_bttn .soctext .projectnick{
+    font-size: 20;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
 
 
 .skillscontainer{
